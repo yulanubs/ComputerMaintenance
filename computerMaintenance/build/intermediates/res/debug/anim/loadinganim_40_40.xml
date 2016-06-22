@@ -1,0 +1,18 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    　　
+    <item android:drawable="@drawable/loading_more_1" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_2" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_3" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_4" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_5" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_6" android:duration="150" />
+    　　
+    <item android:drawable="@drawable/loading_more_7" android:duration="150" />
+    <item android:drawable="@drawable/loading_more_8" android:duration="150" />
+
+</animation-list><!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/anim/loadinganim_40_40.xml -->

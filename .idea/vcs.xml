@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.gradle" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/.idea" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/build" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/commrcmcommonbase/build" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/computerMaintenance/build" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/dC_NoHttp/build" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/kSYMediaPlayer/build" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/kSYMediaWidget/build" vcs="svn" />
+  </component>
+</project>

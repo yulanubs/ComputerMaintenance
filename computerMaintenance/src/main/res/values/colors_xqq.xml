@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_color_title">#ffffffff</color>
+    <color name="text_color_important_red">#f30000</color>
+    <color name="text_color_bottom">#ff0ebffa</color>
+    <color name="text_color_secondary">#ff000000</color>
+    <color name="text_color_function">#2068bb</color>
+    <color name="title_background_color">#ffffffff</color>
+    <color name="famous_list_divider">#ffffff</color>
+    <color name="bottom_color_secondary">#ffd2d2d2</color>
+    <color name="text_color_secondary_grey">#e6e6e6</color>
+    <color name="category_text_color_normal">#3d3d3d</color>
+    <color name="gray_new">#dfd9d9</color>
+
+
+    <color name="order_gray_03">#d3d3d3</color>
+    <color name="ff000fd4">#ff000fd4</color>
+    <color name="ff009940">#ff009940</color>
+    <color name="ff00bf50">#ff00bf50</color>
+    <color name="ff959595">#ff959595</color>
+    <color name="ffaaaaaa">#ffaaaaaa</color>
+    <color name="ffc3c3c3">#ffc3c3c3</color>
+    <color name="ffcccccc">#ffcccccc</color>
+    <color name="ffd4d4d4">#ffd4d4d4</color>
+    <color name="ffd5d5d5">#ffd5d5d5</color>
+    <color name="ffe5e5e5">#ffe5e5e5</color>
+    <color name="ffededed">#ffededed</color>
+    <color name="ffe7e7e7">#ffe7e7e7</color>
+    <color name="fff1f1f1">#fff1f1f1</color>
+    <color name="fff3f3f3">#fff3f3f3</color>
+    <color name="fff7f7f7">#fff7f7f7</color>
+    <color name="fff9f9f9">#fff9f9f9</color>
+
+    <color name="ff555555">#ff555555</color>
+    <color name="ffa8a8a8">#ffa8a8a8</color>
+    <color name="ff2068bb">#ff2068bb</color>
+    <color name="ffb3b3b3">#ffb3b3b3</color>
+    <color name="divider_color_paidorder_one">#19000000</color>
+    <color name="divider_color_paidorder_two">#33000000</color>
+    <color name="divider_color_paidorder_three">#ffaaaaaa</color>
+    <color name="divider_color_black">#ff000000</color>
+    <color name="divider_color_bold">#ffc8c8c8</color>
+    <color name="divider_color">#ffababab</color>
+
+</resources>

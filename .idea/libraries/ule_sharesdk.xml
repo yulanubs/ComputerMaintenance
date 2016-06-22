@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ule_sharesdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/computerMaintenance/libs/ule_sharesdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

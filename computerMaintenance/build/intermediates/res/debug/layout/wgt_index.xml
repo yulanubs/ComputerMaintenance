@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="45dp"
+    android:background="#e9e9e9"
+    android:descendantFocusability="blocksDescendants">
+
+    <com.computerdmaintenance.ui.component.CustomScrollView
+        android:id="@+id/csv_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    layout="@layout/wgt_index_head_img_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <com.computerdmaintenance.ui.component.FeatureListView
+                    android:id="@+id/gv_dome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/white"
+                    android:cacheColorHint="#00000000"
+                    android:listSelector="#00000000"
+                    android:numColumns="4"
+                    android:padding="5dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:text="电脑医生.现金红包.疯抢中"
+                            android:textColor="#e84949"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="还剩"
+                                android:textColor="#333333"
+                                android:textSize="12sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:singleLine="true"
+                                android:text="239,345,203"
+                                android:textColor="#dd8612"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:singleLine="true"
+                                android:text="个红包，加油！"
+                                android:textColor="#333333"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/hongbao" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.computerdmaintenance.ui.component.BusinessView
+                    android:id="@+id/fl_business"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:divider="#dcdcdc"
+                    android:dividerHeight="1dip"
+                    android:listSelector="@drawable/list_selector" />
+
+                <com.tom.ule.ui.view.image.UleImageView
+                    android:id="@+id/iv_Vlass_Video"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_group_my_header_bg" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <com.computerdmaintenance.ui.component.BusinessView
+                        android:id="@+id/bv_class_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@color/white"
+                        android:cacheColorHint="@android:color/transparent"
+                        android:divider="#dcdcdc"
+                        android:dividerHeight="1dip"
+                        android:listSelector="@drawable/list_selector" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.computerdmaintenance.ui.component.CustomScrollView>
+
+    <include
+        android:id="@+id/search"
+        layout="@layout/search_item_view" />
+
+</FrameLayout><!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/layout/wgt_index.xml -->

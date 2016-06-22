@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ben">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/computerMaintenance/libs/ben.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

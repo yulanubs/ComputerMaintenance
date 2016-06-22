@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_ativity_img"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/plugin_camera_no_pictures" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_ativity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="免费咨询"
+            android:textColor="@color/_2d2d2d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_ativity_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="资深顾问 ，全程服务"
+            android:textColor="@color/_8d8d8d"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/layout/search_gridview_top.xml -->

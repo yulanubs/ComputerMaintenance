@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/commrcmcommonbase" />
+            <option value="$PROJECT_DIR$/computerMaintenance" />
+            <option value="$PROJECT_DIR$/dC_NoHttp" />
+            <option value="$PROJECT_DIR$/kSYMediaPlayer" />
+            <option value="$PROJECT_DIR$/kSYMediaWidget" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/commrcmcommonbase" />
+            <option value="$PROJECT_DIR$/computerMaintenance" />
+            <option value="$PROJECT_DIR$/dC_NoHttp" />
+            <option value="$PROJECT_DIR$/kSYMediaPlayer" />
+            <option value="$PROJECT_DIR$/kSYMediaWidget" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

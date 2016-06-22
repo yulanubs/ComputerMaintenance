@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ComputerMaintenance.iml" filepath="$PROJECT_DIR$/ComputerMaintenance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commrcmcommonbase/commrcmcommonbase.iml" filepath="$PROJECT_DIR$/commrcmcommonbase/commrcmcommonbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/computerMaintenance/computerMaintenance.iml" filepath="$PROJECT_DIR$/computerMaintenance/computerMaintenance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dC_NoHttp/dC_NoHttp.iml" filepath="$PROJECT_DIR$/dC_NoHttp/dC_NoHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kSYMediaPlayer/kSYMediaPlayer.iml" filepath="$PROJECT_DIR$/kSYMediaPlayer/kSYMediaPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kSYMediaWidget/kSYMediaWidget.iml" filepath="$PROJECT_DIR$/kSYMediaWidget/kSYMediaWidget.iml" />
+    </modules>
+  </component>
+</project>

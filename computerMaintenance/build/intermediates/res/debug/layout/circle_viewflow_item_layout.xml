@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/jumi_flash_1"></ImageView>
+
+</LinearLayout><!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/layout/circle_viewflow_item_layout.xml -->

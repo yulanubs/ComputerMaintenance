@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_class_num"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_01"
+        android:gravity="center"
+        android:text="第1节"
+        android:textColor="@color/_12b7f5"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="video_ratio">
+        <item name="16_9">16:9</item>
+        <item name="4_3">4:3</item>
+        <!-- <item name="FullScreen">FullScreen</item>
+        <item name="Origin">Origin</item> -->
+    </string-array>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="_079c5e">#079c5e</color>
+    <color name="_0ebffa">#0ebffa</color>
+    <color name="_12b7f5">#12b7f5</color>
+    <color name="_23d178">#22d378</color>
+    <color name="_23d278">#23d278</color>
+    <color name="_2d2d2d">#2d2d2d</color>
+    <color name="_2d313a">#2d313a</color>
+    <color name="_333333">#333333</color>
+    <color name="_3d3d3d">#3d3d3d</color>
+    <color name="_666666">#666666</color>
+    <color name="_688794">#688794</color>
+    <color name="_698694">#698694</color>
+    <color name="_698696">#698696</color>
+    <color name="_77929e">#77929e</color>
+    <color name="_797979">#797979</color>
+    <color name="_7d7d7d">#7d7d7d</color>
+    <color name="_848484">#848484</color>
+    <color name="_8c8c8c">#8c8c8c</color>
+    <color name="_8d8d8d">#8d8d8d</color>
+    <color name="_949494">#ff949494</color>
+    <color name="_ff2a27">#ff2a27</color>
+    <color name="_ffb844">#ffb844</color>
+    <color name="_ffb943">#ffb943</color>
+    <color name="b5b5b5">#b5b5b5</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="balck">#000000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="bg_gesture_guide_txt">#222222</color>
+    <color name="black">#000000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="blue">#006ddc</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="bottom_color_secondary">#ffd2d2d2</color>
+    <color name="category_text_color_normal">#3d3d3d</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="cbcbcb">#cbcbcb</color>
+    <color name="cdcdcd">#cdcdcd</color>
+    <color name="clarity">#00000000</color>
+    <color name="dbdbdb">#dbdbdb</color>
+    <color name="dcdcdc">#dcdcdc</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="divider_color">#ffababab</color>
+    <color name="divider_color_black">#ff000000</color>
+    <color name="divider_color_bold">#ffc8c8c8</color>
+    <color name="divider_color_paidorder_one">#19000000</color>
+    <color name="divider_color_paidorder_three">#ffaaaaaa</color>
+    <color name="divider_color_paidorder_two">#33000000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="e6e6e6">#e6e6e6</color>
+    <color name="e9e9e9">#e9e9e9</color>
+    <color name="ededed">#ededed</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="famous_list_divider">#ffffff</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="fb5d76">#fb5d76</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="ff000fd4">#ff000fd4</color>
+    <color name="ff009940">#ff009940</color>
+    <color name="ff00bf50">#ff00bf50</color>
+    <color name="ff2068bb">#ff2068bb</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="ff2a27">#ff2a27</color>
+    <color name="ff333333">#ff333333</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="ff555555">#ff555555</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="ff686868">#ff686868</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="ff959595">#ff959595</color>
+    <color name="ffa8a8a8">#ffa8a8a8</color>
+    <color name="ffaaaaaa">#ffaaaaaa</color>
+    <color name="ffb3b3b3">#ffb3b3b3</color>
+    <color name="ffc3c3c3">#ffc3c3c3</color>
+    <color name="ffcccccc">#ffcccccc</color>
+    <color name="ffd4d4d4">#ffd4d4d4</color>
+    <color name="ffd5d5d5">#ffd5d5d5</color>
+    <color name="ffe5e5e5">#ffe5e5e5</color>
+    <color name="ffe7e7e7">#ffe7e7e7</color>
+    <color name="ffededed">#ffededed</color>
+    <color name="fff1f1f1">#fff1f1f1</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="fff30000">#fff30000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="fff3f3f3">#fff3f3f3</color>
+    <color name="fff7f7f7">#fff7f7f7</color>
+    <color name="fff9f9f9">#fff9f9f9</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="ffffffff">#ffffffff</color>
+    <color name="graph_fill">#0cc0f8</color>
+    <color name="graph_separate">#dee5e8</color>
+    <color name="graph_text">#c1c8cb</color>
+    <color name="gray">#808080</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="gray_new">#dfd9d9</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="green">#22d278</color>
+    <color name="half_transparent">#50000000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="lightblue">#A2A2A2</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="order_gray_03">#d3d3d3</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="pink">#ff6464</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <color name="province_line_border">#d5d5d5</color>
+    <color name="red">#ff0000</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="text_color_bottom">#ff0ebffa</color>
+    <color name="text_color_function">#2068bb</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="text_color_important_black">#333333</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="text_color_important_red">#f30000</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="text_color_normal">#686868</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/colors_xqq.xml -->
+    <eat-comment/>
+    <color name="text_color_secondary">#ff000000</color>
+    <color name="text_color_secondary_grey">#e6e6e6</color>
+    <color name="text_color_title">#ffffffff</color>
+    <color name="title_background_color">#ffffffff</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffffff</color>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="yellow">#ff700b</color>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="dimension" name="radius"/><attr format="boolean" name="centered"/><attr format="integer" name="fadeOut"/><attr name="inactiveType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr name="activeType"><flag name="stroke" value="0"/><flag name="fill" value="1"/></attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/></declare-styleable>
+    <declare-styleable name="PlayerView"><attr name="playmode"><enum name="fullscreen" value="0"/><enum name="window" value="1"/><enum name="miniwindow" value="2"/></attr><attr format="boolean" name="lockmode"/></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="bright_margin_bottom">6dp</dimen>
+    <dimen name="bright_margin_left">20dp</dimen>
+    <dimen name="bright_margin_top">12dp</dimen>
+    <dimen name="bright_padding">10dp</dimen>
+    <dimen name="bright_seek_margin_bottom">12dp</dimen>
+    <dimen name="bright_seek_margin_top">25dp</dimen>
+    <dimen name="buffer_height">60dp</dimen>
+    <dimen name="buffer_width">60dp</dimen>
+    <dimen name="controller_bright_height">157dp</dimen>
+    <dimen name="controller_bright_width">31dp</dimen>
+    <dimen name="controller_button_height">30dp</dimen>
+    <dimen name="controller_button_width">60dp</dimen>
+    <dimen name="controller_large_bottom">44dp</dimen>
+    <dimen name="controller_large_bottom_bg">67dp</dimen>
+    <dimen name="controller_large_bottom_seek">8dp</dimen>
+    <dimen name="controller_large_margin">18dp</dimen>
+    <dimen name="controller_large_time_margin">9dp</dimen>
+    <dimen name="controller_large_top">37dp</dimen>
+    <dimen name="controller_large_top_margin">13dp</dimen>
+    <dimen name="controller_seekbar_margin">1dp</dimen>
+    <dimen name="crop_view_height">110dp</dimen>
+    <dimen name="crop_view_margin_top">10dp</dimen>
+    <dimen name="crop_view_width">120dp</dimen>
+    <dimen name="event_action_padding">20dp</dimen>
+    <dimen name="event_action_padding_left">6dp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="large_text_size">22sp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="micro_text_size">12sp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="popup_listview">0.4dp</dimen>
+    <dimen name="relate_width_bg">190dp</dimen>
+    <dimen name="screen_lock_margin_left">75dp</dimen>
+    <dimen name="screen_tosmall_bottom">15dp</dimen>
+    <dimen name="seek_touch_margin">8dp</dimen>
+    <dimen name="seek_touch_margin_top">2dp</dimen>
+    <dimen name="small_margin_left">10dp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_secondary">12sp</dimen>
+    <dimen name="text_size_top_bar">18sp</dimen>
+    <dimen name="textview_size_13">13sp</dimen>
+    <dimen name="textview_size_18">18sp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="volume_margin_bottom">4dp</dimen>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="button_blue">#81cfeb</drawable>
+    <drawable name="button_white">#f5f5f5</drawable>
+    <drawable name="transparent_black">#00000000</drawable>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <string name="SERVER_Game">appstore.tom.com</string>
+    <string name="SERVER_Game_Push">g.tom.com</string>
+    <string name="SERVER_MR_BETA_BASE">service.beta.ule.com</string>
+    <string name="SERVER_MR_BETA_VPS">httpp://192.168.0.6:8080</string>
+    <string name="SERVER_MR_PRD_BASE">service.ule.com</string>
+    <string name="SERVER_MR_PRD_VPS">http://syknet.duapp.com</string>
+    <string name="UPDATE_KEY">computermaintenance_android_update</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">电脑医生</string>
+    <string name="confirm">确认</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="connect_failed">连接失败，请重新连接</string>
+    <string name="cropscreen_success">截图成功</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="customertoast_text">hello i\'m instanse message here!!</string>
+    <string name="enginemode_title">引擎模式</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="episode">剧集</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="exit_prompt">再按一次返回键退出电脑医生</string>
+    <string name="foot_activity">动态</string>
+    <string name="foot_cart">诊断</string>
+    <string name="foot_category">分类</string>
+    <string name="foot_index">首页</string>
+    <string name="foot_personal">我的</string>
+    <string name="foot_route">私信</string>
+    <string name="foot_search">发现</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="gongfu">功夫</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="hello">你好</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="high_definition">高清</string>
+    <string name="init_time">00:00</string>
+    <string name="initial_percent">0%</string>
+    <string name="king_cloud">电脑医生云课堂</string>
+    <string name="loading">加载中，请稍后...</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="login_account_error">邮箱或手机号不合法</string>
+    <string name="login_find_login_pwd">找回密码</string>
+    <string name="login_find_login_pwd_pwd_confirm">确认密码</string>
+    <string name="login_find_login_pwd_pwd_input">重置密码</string>
+    <string name="login_find_pwd_success">密码重置成功,去登录？</string>
+    <string name="login_hint_pls_input_new_ped_confirm">请再次输入您的新密码</string>
+    <string name="login_hint_register_confirm_pwd">请确认密码</string>
+    <string name="login_inpupwd">请输入密码</string>
+    <string name="login_inputuseremail">请输入账号</string>
+    <string name="login_login">登录</string>
+    <string name="login_new_pwd_error">新密码与确认密码不一致</string>
+    <string name="login_pls_input_confirm_pwd_first">请先输入确认密码</string>
+    <string name="login_pls_input_phone_number_first">请先输入手机号码</string>
+    <string name="login_pls_input_pwd_first">请先输入新密码</string>
+    <string name="login_pls_input_pwd_length">密码长度6至20位</string>
+    <string name="login_pls_input_right_phone_number">请输入合法的手机号码</string>
+    <string name="login_pls_input_right_validate_code">请输入合法的验证码</string>
+    <string name="login_pls_input_validate_code_first">请先输入验证码</string>
+    <string name="login_pwd_format_error">密码长度最少为6位</string>
+    <string name="login_register_title">注册</string>
+    <string name="loing_hint_pls_input_new_pwd">请输入您的新密码</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/config.xml -->
+    <eat-comment/>
+    <string name="marketId">999</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="mobile_login_register_title">绑定手机号码</string>
+    <string name="network_err_detail">查看详情</string>
+    <string name="network_err_pro">请检查您的网络</string>
+    <string name="network_err_title">网络不给力</string>
+    <string name="personal_account">账户安全</string>
+    <string name="personal_account_center">学习中心</string>
+    <string name="personal_all_order">医疗记录</string>
+    <string name="personal_comment">学习笔记</string>
+    <string name="personal_customer_service">安全中心</string>
+    <string name="personal_fast_search">预约查询</string>
+    <string name="personal_information">消息中心</string>
+    <string name="personal_login">登录</string>
+    <string name="personal_more">更多</string>
+    <string name="personal_my_focus">我的关注</string>
+    <string name="personal_order_center">医疗中心</string>
+    <string name="personal_quick_buy">学习进度</string>
+    <string name="personal_return_back">返修/退换货</string>
+    <string name="personal_title">我的梦软</string>
+    <string name="personal_wait_pay">优惠活动</string>
+    <string name="personal_welcome">欢迎使用电脑医生</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="play_error">哎呀，播放错误啦 </string>
+    <string name="player_error">"抱歉,播放出错"</string>
+    <string name="replay">重新播放</string>
+    <string name="rewind">快退</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="sixteen_nine">16:9</string>
+    <string name="speed">快进</string>
+    <string name="standard_definition">标清</string>
+    <string name="time_minute">-</string>
+    <string name="time_plus">+</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_classroom">ClassroomActivity</string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="total_time">00:00</string>
+    <string name="video_test">电脑医生云课堂</string>
+    <string name="virgule"> / </string>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/build/intermediates/exploded-aar/ComputerMaintenance/kSYMediaWidget/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="BottomTextStyle">
+       <!--  <item name="android:textSize">@dimen/word_size</item> -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Mr.NoTitleBar.CustomBackground" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@drawable/loadingbg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="PersonalBottomStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/more_activity_item_selector_bottom_corners</item>
+    </style>
+    <style name="PersonalCenterText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="PersonalIconStyle">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="PersonalLine">
+        <item name="android:background">#ffcccccc</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="PersonalMainLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/background_corners</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">1dp</item>
+    </style>
+    <style name="PersonalNormalStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/more_activity_item_selector_no_corners</item>
+    </style>
+    <style name="PersonalRightIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="PersonalTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+    <style name="PersonalTopStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:background">@drawable/more_acitivity_item_selector_top_corners</item>
+    </style>
+    <style name="mydialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+
+        <!-- <item name="android:windowBackground">@drawable/dialog_window_bg</item> -->
+    </style>
+</resources>

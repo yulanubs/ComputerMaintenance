@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 填充颜色 -->
+
+    <!-- 线的宽度，颜色灰色 -->
+    <stroke
+        android:width="0.5dp"
+        android:color="#ffffff"></stroke>
+
+    <!-- 矩形的圆角半径 -->
+    <corners android:radius="5dp" />
+
+</shape><!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/drawable/message_headle_title_bg.xml -->
