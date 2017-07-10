@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="heart_default">#E48674</color>
+    <color name="heart_select">#E48674</color>
+    <color name="heartbeat">#FF4081</color>
+    <color name="heartbeat_orange">#D95238</color>
 
     <color name="red">#ff0000</color>
     <color name="text_color_normal">#686868</color>
@@ -26,7 +35,7 @@
     <color name="_ffb943">#ffb943</color>
     <color name="_23d278">#23d278</color>
     <color name="_23d178">#22d378</color>
-    <color name="green">#22d278</color>
+    <color name="green">#0080ff</color>
     <color name="_666666">#666666</color>
     <color name="_333333">#333333</color>
     <color name="dbdbdb">#dbdbdb</color>

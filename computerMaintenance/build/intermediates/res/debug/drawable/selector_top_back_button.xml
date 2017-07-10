@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/top_icon_back_press" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/top_icon_back_normal" android:state_pressed="false"></item>
-</selector>
-<!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/drawable/selector_top_back_button.xml -->

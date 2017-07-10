@@ -5,7 +5,7 @@ import android.widget.TextView;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.ViewHolder;
+import com.computerdmaintenance.util.ViewHolder;
 import com.mr.cm.common.base.domain.ClassCurriculum;
 
 /**

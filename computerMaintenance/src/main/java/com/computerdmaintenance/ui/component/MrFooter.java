@@ -12,9 +12,9 @@ import android.widget.TextView;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.UtilTools;
 
 import java.util.Calendar;
 

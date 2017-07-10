@@ -23,7 +23,7 @@ import android.util.AttributeSet;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.loudmaintenance.util.MrLog;
+import com.computerdmaintenance.util.MrLog;
 
 /**
  * A @{code ImageView} which can rotate it's content. source code from google

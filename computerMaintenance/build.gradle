@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.computerdmaintenance"
@@ -24,10 +24,11 @@ android {
 
 dependencies {
     compile project(':dC_NoHttp')
-    compile project(':kSYMediaPlayer')
-    compile project(':kSYMediaWidget')
+//    compile project(':kSYMediaPlayer')
+//    compile project(':kSYMediaWidget')
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:23.2.1'
     compile project(':commrcmcommonbase')
-    compile files('libs/android-support-v13.jar')
     compile files('libs/BaiduLBS_Android.jar')
     compile files('libs/ben.jar')
     compile files('libs/fastjson.jar')
@@ -36,7 +37,7 @@ dependencies {
     compile files('libs/pushservice-4.6.2.39.jar')
     compile files('libs/ule_image_v1.1.jar')
     compile files('libs/ule_sharesdk.jar')
-    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 }
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

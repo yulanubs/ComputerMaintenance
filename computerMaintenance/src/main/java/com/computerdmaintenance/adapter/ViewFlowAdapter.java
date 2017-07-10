@@ -19,8 +19,7 @@ import java.util.ArrayList;
  * 数据装载类
  */
 public class ViewFlowAdapter extends BaseAdapter {
-    private static int[] ids = {R.drawable.jumi_flash_1, R.drawable.jumi_flash_2,
-            R.drawable.jumi_flash_3};
+    private static int[] ids = {R.drawable.jumi_flash_1};
     ComputerMaintenanceApplication app;
     private ArrayList<Funcations> list;
     private LayoutInflater mInflater;
@@ -58,7 +57,7 @@ public class ViewFlowAdapter extends BaseAdapter {
         if (null != list && list.size() > 0) {
             String ImgUrl = list.get(position % list.size()).images;
             if (null != ImgUrl && !ImgUrl.equals("")) {
-                ImageLoader.getInstance().displayImage(app.config.SERVER_MR_VPS + ImgUrl, mimg, app.option);
+                ImageLoader.getInstance().displayImage( ImgUrl, mimg, app.option);
 
             }
 

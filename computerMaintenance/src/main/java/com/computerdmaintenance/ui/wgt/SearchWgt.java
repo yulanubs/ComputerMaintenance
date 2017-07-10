@@ -76,7 +76,7 @@ public class SearchWgt extends BaseWgt implements OnClickListener {
         ArrayList<SearchLogo> SearchLogoList = new ArrayList<SearchLogo>();
         SearchLogoList
                 .add(new SearchLogo("002", "0x633",
-                        "/computerdoctor/images/advertisement/jumi_flash_2.jpg"));
+                        "/images/advertisement/jumi_flash_2.jpg"));
         ArrayList<SearchFeatured> SearchFeaturedList = new ArrayList<SearchFeatured>();
 
         ArrayList<SearchInfo> SearchInfolist = new ArrayList<SearchInfo>();
@@ -94,7 +94,7 @@ public class SearchWgt extends BaseWgt implements OnClickListener {
                 "http://photographic.paas.capitalcloud.net/images/4.png"));
 
         ImageLoader.getInstance().displayImage(
-                appcontext.config.SERVER_MR_VPS + SearchLogoList.get(0).getImgurl(), iv_searchlogo,
+                appcontext.config.IMAGE_SERVER + SearchLogoList.get(0).getImgurl(), iv_searchlogo,
                 appcontext.option);
 
         // 推荐位

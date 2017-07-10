@@ -12,12 +12,9 @@ import android.widget.TextView;
 import com.computerdmaintenance.R;
 import com.computerdmaintenance.adapter.ClassKeChengAdapter;
 import com.computerdmaintenance.ui.component.FeatureListView;
-import com.ksy.media.player.util.Constants;
-import com.ksy.media.widget.MediaPlayerView;
-import com.ksy.media.widget.MediaPlayerView.PlayerViewCallback;
-import com.loudmaintenance.util.BindView;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.MrLog;
+
+import com.computerdmaintenance.util.BindView;
+import com.computerdmaintenance.util.Consts;
 import com.mr.cm.common.base.domain.Business;
 import com.mr.cm.common.base.domain.ClassCurriculum;
 
@@ -32,8 +29,8 @@ import java.util.List;
  * @Version:1.0
  * @date:2016-4-23 下午1:39:01
  */
-public class ClassRoomActivity extends BaseActivity implements
-        PlayerViewCallback {
+public class ClassRoomActivity extends BaseActivity
+         {
     /***/
     @BindView(id = R.id.ll_context)
     private LinearLayout ll_context;
@@ -41,11 +38,11 @@ public class ClassRoomActivity extends BaseActivity implements
      * 课程信息
      */
     private Business maBusiness;
-    /**
-     * 播放器
-     */
-    @BindView(id = R.id.player_view)
-    private MediaPlayerView playerView;
+//    /**
+//     * 播放器
+//     */
+//    @BindView(id = R.id.player_view)
+//    private MediaPlayerView playerView;
     /**
      * 课程简介布局
      */
@@ -122,7 +119,6 @@ public class ClassRoomActivity extends BaseActivity implements
     /**
      * 视频播放模式
      */
-    private int codeModle = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -157,8 +153,8 @@ public class ClassRoomActivity extends BaseActivity implements
                     mKeChengAdapter.notifyDataSetChanged();
 
                     path = item.getUrl();
-                    playerView.onResume();
-                    playerView.play(path, item.getTitle() + "");
+//                    playerView.onResume();
+//                    playerView.play(path, item.getTitle() + "");
 
                 }
 
@@ -206,7 +202,7 @@ public class ClassRoomActivity extends BaseActivity implements
 
     private void startPlayer(String url) {
 
-        playerView.setPlayerViewCallback(ClassRoomActivity.this);
+//        playerView.setPlayerViewCallback(ClassRoomActivity.this);
 
         // path =
         // "http://7xpara.com1.z0.glb.clouddn.com/1.%20%E5%93%8D%E5%BA%94%E5%BC%8F%E5%B8%83%E5%B1%80%E4%BB%8B%E7%BB%8D.mp4";
@@ -217,8 +213,7 @@ public class ClassRoomActivity extends BaseActivity implements
             path = mDatas.get(0).getUrl();
 
         }
-        MrLog.debug(Constants.LOG_TAG, "input url = " + path);
-        playerView.play(path, voideTitle);
+//        playerView.play(path, voideTitle);
         // Love.mp4
         // avitest.avi
         // flvtest.flv
@@ -231,47 +226,21 @@ public class ClassRoomActivity extends BaseActivity implements
         // playerView.play("http://maichang.kssws.ks-cdn.com/upload20150716161913.mp4");
     }
 
-    @Override
-    public void hideViews() {
-        // TODO Auto-generated method stub
 
-    }
 
-    @Override
-    public void restoreViews() {
-        // TODO Auto-generated method stub
 
-    }
 
-    @Override
-    public void onPrepared() {
-        // TODO Auto-generated method stub
 
-    }
 
-    @Override
-    public void onQualityChanged() {
-        // TODO Auto-generated method stub
 
-    }
 
-    @Override
-    public void onFinish(int playMode) {
-        // TODO Auto-generated method stub
 
-    }
-
-    @Override
-    public void onError(int errorCode, String errorMsg) {
-        // TODO Auto-generated method stub
-
-    }
 
     @Override
     protected void onResume() {
         // TODO Auto-generated method stub
         super.onResume();
-        playerView.onResume();
+//        playerView.onResume();
     }
 
     @Override
@@ -280,14 +249,14 @@ public class ClassRoomActivity extends BaseActivity implements
         Log.d("lixp", "VideoPlayerActivity ....onDestroy()......");
         super.onDestroy();
 
-        playerView.onDestroy();
+//        playerView.onDestroy();
     }
 
     @Override
     protected void onPause() {
 
         super.onPause();
-        playerView.onPause();
+//        playerView.onPause();
     }
 
     @Override
@@ -335,35 +304,9 @@ public class ClassRoomActivity extends BaseActivity implements
 
     }
 
-    @Override
-    public void isFullScreenMode(boolean isFullScreenMode, int code) {
-        if (isFullScreenMode) {
-            ll_context.setVisibility(View.GONE);
-        }
 
-    }
 
-    @Override
-    public void isWindowMode(boolean isWindowMode, int code) {
-        if (isWindowMode) {
-            ll_context.setVisibility(View.VISIBLE);
-        }
 
-    }
-
-    @Override
-    public void exitMediaPlayer(int code) {
-        this.codeModle = code;
-        // 退出
-        switch (codeModle) {
-            case 0:
-                break;
-            case 1:
-                ClassRoomActivity.this.finish();
-                break;
-        }
-
-    }
 
 
 }

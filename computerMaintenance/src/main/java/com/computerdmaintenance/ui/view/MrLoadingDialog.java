@@ -49,7 +49,7 @@ public class MrLoadingDialog extends AlertDialog {
         setContentView(R.layout.flight_toastbackground);
 
         imageView = (ImageView) findViewById(R.id.customertoast_icon);
-        imageView.setBackgroundResource(R.anim.loadinganim_40_40);
+        imageView.setBackgroundResource(R.drawable.loadinganim_40_40);
         animationDrawable = (AnimationDrawable) imageView.getBackground();
 
         // animationDrawable.setOneShot(false);

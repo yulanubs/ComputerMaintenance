@@ -19,9 +19,9 @@ import com.computerdmaintenance.ui.WGTContainer;
 import com.computerdmaintenance.ui.component.MrFooter;
 import com.computerdmaintenance.ui.wgt.BaseWgt;
 import com.computerdmaintenance.ui.wgt.SlidingMain;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.UtilTools;
 
 public abstract class SlideActivity extends Base {
 

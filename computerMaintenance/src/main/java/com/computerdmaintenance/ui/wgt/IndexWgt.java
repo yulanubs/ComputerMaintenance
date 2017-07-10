@@ -31,9 +31,9 @@ import com.computerdmaintenance.ui.component.FeatureListView;
 import com.computerdmaintenance.ui.view.wgt.CircleFlowIndicator;
 import com.computerdmaintenance.ui.view.wgt.ViewFlow;
 import com.computerdmaintenance.ui.wgt.event.MrEvent;
-import com.loudmaintenance.util.BindView;
-import com.loudmaintenance.util.Constants;
-import com.loudmaintenance.util.Consts;
+import com.computerdmaintenance.util.BindView;
+import com.computerdmaintenance.util.Constants;
+import com.computerdmaintenance.util.Consts;
 import com.mr.cm.common.base.domain.AdvertisementInfo;
 import com.mr.cm.common.base.domain.Business;
 import com.mr.cm.common.base.domain.FuncationInfo;
@@ -130,8 +130,8 @@ public class IndexWgt extends BaseWgt implements
         mViewFlow = (ViewFlow) findViewById(R.id.viewflow);
         mViewFlowAdapter = new ViewFlowAdapter(context, appcontext);
         indic = (CircleFlowIndicator) findViewById(R.id.viewflowindic);
-        mViewFlow.setmSideBuffer(3); // 实际图片张数， 我的ImageAdapter实际图片张数为3
-        mViewFlow.setSelection(3 * 1000); // 设置初始位置
+        mViewFlow.setmSideBuffer(1); // 实际图片张数， 我的ImageAdapter实际图片张数为3
+        mViewFlow.setSelection(1000); // 设置初始位置
         mViewFlow.setFlowIndicator(indic);
         mFunctionListAdapter = new IndexFunctionListAdapter(mContext,
                 R.layout.index_gridview_item, 5, appcontext);
@@ -140,6 +140,7 @@ public class IndexWgt extends BaseWgt implements
         mClassVideoListAdapter = new ClassVideoListAdapter(mContext,
                 R.layout.classvideo_list_item, 5, appcontext);
         mViewFlow.setAdapter(mViewFlowAdapter, 0);
+        checkIndic();
         mViewFlow.startAutoFlowTimer(); // 启动自动播放
         // 搜索框焦点事件处理
         et_search.setOnClickListener(new OnClickListener() {
@@ -158,6 +159,14 @@ public class IndexWgt extends BaseWgt implements
         getInfo();
         setEventListener();
 
+    }
+
+    private void checkIndic() {
+        if (mViewFlow.getmSideBuffer()>1){
+            indic.setVisibility(View.VISIBLE);
+        }else {
+            indic.setVisibility(View.INVISIBLE);
+        }
     }
 
     /**
@@ -211,18 +220,18 @@ public class IndexWgt extends BaseWgt implements
 
     private void getClassVideoList() {
         ImageLoader.getInstance().displayImage(
-                appcontext.config.SERVER_MR_VPS
-                        + "/computerdoctor/images/classvideo/classvideo_logo.jpg",
+                appcontext.config.IMAGE_SERVER
+                        + "/images/classvideo/classvideo_logo.jpg",
                 iv_Vlass_Video, appcontext.option);
         List<Business> mDatas = new ArrayList<Business>();
         mDatas.add(new Business("100", "1000", "日常保养篇", "来，给您的电脑敷块面膜！",
-                "/computerdoctor/images/advertisement/jumi_flash_1.jpg", "100", "19"));
+                "/images/advertisement/jumi_flash_1.jpg", "100", "19"));
         mDatas.add(new Business("100", "1400", "系统安装篇", "贴心系统安装指南！",
-                "/computerdoctor/images/advertisement/jumi_flash_2.jpg", "490", "37"));
+                "/images/advertisement/jumi_flash_2.jpg", "490", "37"));
         mDatas.add(new Business("100", "1200", "办公技能篇", "独家办公技巧！",
-                "/computerdoctor/images/advertisement/jumi_flash_3.jpg", "700", "23"));
+                "/images/advertisement/jumi_flash_3.jpg", "700", "23"));
         mDatas.add(new Business("100", "1000", "蓝屏处理篇", "电脑死机，蓝屏故障！",
-                "/computerdoctor/images/advertisement/jumi_flash_4.jpg", "980", "87"));
+                "/images/advertisement/jumi_flash_4.jpg", "980", "87"));
         if (null != mDatas && mDatas.size() > 0) {
             mClassVideoListAdapter.setmDatas(mDatas);
             bv_class_video.setAdapter(mClassVideoListAdapter);
@@ -237,13 +246,13 @@ public class IndexWgt extends BaseWgt implements
     private void getBusinessList() {
         List<Business> mDatas = new ArrayList<Business>();
         mDatas.add(new Business("100", "1000", "好运来电脑维修", "专业维修，微笑服务，好运来电脑！",
-                "/computerdoctor/images/functions/manage_update_icon.png", "100", "1.5"));
+                "/images/functions/manage_update_icon.png", "100", "1.5"));
         mDatas.add(new Business("100", "1400", "鹏程电脑", "鹏程电脑竭诚为您服务！",
-                "/computerdoctor/images/functions/manage_tools_clear.png", "490", "1.2"));
+                "/images/functions/manage_tools_clear.png", "490", "1.2"));
         mDatas.add(new Business("100", "1200", "德州计算机服务中心", "专业的技术团队，周到的售后服务！",
-                "/computerdoctor/images/functions/manage_hongbao_icon.png", "700", "2.5"));
+                "/images/functions/manage_hongbao_icon.png", "700", "2.5"));
         mDatas.add(new Business("100", "1000", "广兰计算机科技", "一流的技术，周到的服务！",
-                "/computerdoctor/images/functions/manage_update_icon.png", "980", "3.2"));
+                "/images/functions/manage_update_icon.png", "980", "3.2"));
         if (null != mDatas && mDatas.size() > 0) {
             mBusinessInfoListAdapter.setmDatas(mDatas);
             fl_business.setAdapter(mBusinessInfoListAdapter);
@@ -271,7 +280,7 @@ public class IndexWgt extends BaseWgt implements
                                 AdvertisementInfo info = response.get();
                                 if (null != info) {
 
-                                    if (info.returnCode.equals("0000")) {
+                                    if (null!=info.returnCode&&info.returnCode.equals("0000")) {
 
                                         // 跳转到个人中心
                                         // appcontext.openToast(mContext,
@@ -292,8 +301,8 @@ public class IndexWgt extends BaseWgt implements
                                             layoutParams.gravity = Gravity.CENTER;
 
                                             indic.setLayoutParams(layoutParams);
-
                                             mViewFlow.setFlowIndicator(indic);
+                                            checkIndic();
                                             mViewFlow.startAutoFlowTimer(); // 启动自动播放
                                             mViewFlowAdapter
                                                     .notifyDataSetInvalidated();
@@ -316,7 +325,7 @@ public class IndexWgt extends BaseWgt implements
                             // TODO Auto-generated method stub
 
                         }
-                    }, Constants.What.WHAT_INDEX_AB, true, false, true);
+                    }, Constants.What.WHAT_INDEX_AB, false, false, true);
         }
 
     }
@@ -339,7 +348,7 @@ public class IndexWgt extends BaseWgt implements
                             FuncationInfo info = response.get();
                             if (null != info) {
 
-                                if (info.returnCode.equals("0000")) {
+                                if (null!=info.returnCode&&info.returnCode.equals("0000")) {
 
                                     // 跳转到个人中心
                                     // appcontext.openToast(mContext,

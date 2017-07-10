@@ -8,8 +8,8 @@ import android.widget.Toast;
 
 import com.baidu.android.pushservice.PushMessageReceiver;
 import com.computerdmaintenance.ui.ClassRoomActivity;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.Utils;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -88,7 +88,7 @@ public class CMPushReceiver extends PushMessageReceiver {
         String messageString = "透传消息 message=\"" + message
                 + "\" customContentString=" + customContentString;
         MrLog.debug(TAG, messageString);
-        Toast.makeText(context, messageString, 200).show();
+        Toast.makeText(context, messageString, Toast.LENGTH_SHORT).show();
 
         // 自定义内容获取方式，mykey和myvalue对应透传消息推送时自定义内容中设置的键和值
         if (!TextUtils.isEmpty(customContentString)) {

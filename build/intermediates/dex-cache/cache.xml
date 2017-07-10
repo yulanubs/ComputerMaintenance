@@ -2,102 +2,157 @@
 <items version="2" >
 
     <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\open_sdk_r5509.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\open_sdk_r5509-d88ea0517fb4d69053e650407eb70a17cd605935.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\kSYMediaWidget\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="fa2f6be0044669f864e351bc2b2903b3b6a5cfbe">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\classes-dfdee198c45c624631de1d3828411644db6fe973.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\kSYMediaPlayer\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="98765cf48957a286a55b19fd9eb09eec57b0f9ed">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\classes-a88c00512d5017a2ccb91cab472463392eda2a80.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\BaiduLBS_Android.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="07e2a15e3a6310aeb9e7cb15b445b63fcfd82d2d">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\BaiduLBS_Android-08bf80585bc99c27a8417ba616e8a2f45f2a15a4.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\mta-sdk-1.6.2.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\mta-sdk-1.6.2-75164628044bf980cf2efa9d5b0f8ed5c58c968e.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a9890d86b864f8b3f935420ccc6128821a6b4ffa">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\classes-4919fdb6888972dd170d3866dd4904c79793deed.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\android-support-v13.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ecda966839090a41b29a9239d44bafc06fdadb87">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\android-support-v13-ccbb6b3c269d388d6e5d33fd413d7d0b2e5d3b46.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\commrcmcommonbase\build\libs\commrcmcommonbase.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="c96000b620d88b19344716ace72feabf8705c5eb">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\commrcmcommonbase-a73fef084c5cf2bb97f8061bf207c5672bd02a40.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\ule_image_v1.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="54b340f1203c8968c1259be594554d3dee60d2b8">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\ule_image_v1.1-2a5775006ece921ef2b3c322419423df349e2873.jar" />
-    </item>
-    <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\pushservice-4.6.2.39.jar"
-        jumboMode="false"
-        revision="23.0.3"
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\pushservice-4.6.2.39.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="c3dbe0fdd31a38b3defc63f78f8fccabd50e2ddd">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\pushservice-4.6.2.39-bc03113c1e76a62c13a1d23d753cb1605be309ad.jar" />
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\pushservice-4.6.2.39_d0186a72d5972990d8074ab4a9be4b7b70b503de\classes.dex" />
     </item>
     <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\universal-image-loader-1.9.3.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-7f39f2ac62deff1d9a6511567ceed2aff6ffb8fe.jar" />
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26db91e60bbbfad40280c2c1e4c73f9878cba03e">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_85154633dc8c70b19a0a317ac515c568bfc9774f\classes.dex" />
     </item>
     <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\fastjson.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="633eb1efa20cc14cd1d36c90f67b3215c2e01636">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\fastjson-1474dd3a760e2234aebbccb777d4148ef9aec779.jar" />
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_cdb296b164b08e73bb1366b81360bdf14a274640\classes.dex" />
     </item>
     <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\ule_sharesdk.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="781bcb8b83297778416bc1d23101838a6fc61b65">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\ule_sharesdk-f641e84f4b1a58da7a39dcbf3e8c73ab583a3bf5.jar" />
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07e2a15e3a6310aeb9e7cb15b445b63fcfd82d2d">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_5f8eeadef804d2e89592b2240c577ab4b33e236d\classes.dex" />
     </item>
     <item
-        jar="E:\a_code\ComputerMaintenance\computerMaintenance\libs\ben.jar"
-        jumboMode="false"
-        revision="23.0.3"
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.5\442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375\universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\universal-image-loader-1.9.5_397e682f81a90ee78c74b4633dae79a7450f65cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\open_sdk_r5509.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\open_sdk_r5509_c2e178577608944ae98ad2b170a9b3dde0fe94b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\DSoft\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_74d84d9efd644ea060de02487e768b2294211219\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\ben.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="cc7ab141323da1a0fade886563a0a3bab560053c">
-        <dex dex="E:\a_code\ComputerMaintenance\computerMaintenance\build\intermediates\pre-dexed\debug\ben-65341b5267be728fa725e21b7f3fb2534dd344e6.jar" />
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\ben_e452fcc26ce1989d6d216844d473f8abd6ebb553\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\mta-sdk-1.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\mta-sdk-1.6.2_cab978e262197c723b93d6c8425d667b129f2da5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_ec7e49b3c7f8108143e2b98137170ed6070f5957\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_e07b9329dea953d57812a06566dec49b4fc2f5a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\ule_sharesdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="781bcb8b83297778416bc1d23101838a6fc61b65">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\ule_sharesdk_db28e6505f6fb681d98564f7ad0f8224c1a0a58c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3fcbc8c9635ccbeead7c618f92807fb3f1d927d">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_253599d28576e79bbe2a91f5be17ea0a84bfa9d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\ule_image_v1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="54b340f1203c8968c1259be594554d3dee60d2b8">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\ule_image_v1.1_e3a7beed53337ad0beae48b2a200b0ac71c18694\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_eebf3b1c45441bb2ebadcee0413f3d5d9a4cdee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\libs\fastjson.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="633eb1efa20cc14cd1d36c90f67b3215c2e01636">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson_7854520326c00f921386e0798d680f345a2f245e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_ea34b396076b748806944d0acddb82cb79f19058\classes.dex" />
     </item>
 
 </items>

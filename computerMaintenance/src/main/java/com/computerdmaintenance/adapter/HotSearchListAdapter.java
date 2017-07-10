@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.ViewHolder;
+import com.computerdmaintenance.util.ViewHolder;
 import com.mr.cm.common.base.domain.Funcations;
 
 public class HotSearchListAdapter extends CommonAdapter<Funcations> {
@@ -20,7 +20,7 @@ public class HotSearchListAdapter extends CommonAdapter<Funcations> {
     public void convert(ViewHolder hodler, Funcations ben) {
         hodler.setText(R.id.item_title, ben.name);
         hodler.setImageURL(
-                R.id.index_app_icon, app.config.SERVER_MR_VPS + ben.images, app.option);
+                R.id.index_app_icon, ben.images, app.option);
 
     }
 }

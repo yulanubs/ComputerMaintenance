@@ -24,10 +24,10 @@ import com.computerdmaintenance.ui.WGTContainer;
 import com.computerdmaintenance.ui.view.StateButton;
 import com.computerdmaintenance.ui.view.StateButton.OnStateChangeListener;
 import com.computerdmaintenance.ui.wgt.event.MrEvent;
-import com.loudmaintenance.util.Constants;
-import com.loudmaintenance.util.MrEventWebLogin;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.Constants;
+import com.computerdmaintenance.util.MrEventWebLogin;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.UtilTools;
 import com.mr.cm.common.base.domain.FuncationInfo;
 import com.mr.cm.common.base.domain.UserViewModle;
 import com.yolanda.nohttp.Request;
@@ -235,7 +235,7 @@ public class LoginWgt extends BaseWgt implements View.OnClickListener {
                     // TODO Auto-generated method stub
 
                 }
-            }, Constants.What.WHAT_LOGIN, true, false, true);
+            }, Constants.What.WHAT_LOGIN, false, false, true);
 
         }
 

@@ -1,7 +1,0 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/loadingbg">
-
-</RelativeLayout>
-<!-- From: file:/E:/a_code/ComputerMaintenance/computerMaintenance/src/main/res/layout/activity_splash.xml -->

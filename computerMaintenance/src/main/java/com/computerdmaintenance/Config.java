@@ -128,4 +128,5 @@ public class Config {
 	/* public final String ClientName = "gushihui"; */
 
     public String SERVER_MR_VPS;
+    public  String IMAGE_SERVER;
 }

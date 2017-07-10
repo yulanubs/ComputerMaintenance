@@ -30,7 +30,7 @@ import android.view.View.OnTouchListener;
 import android.widget.EditText;
 
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.UtilTools;
 
 public class ClearableEditText extends EditText implements OnTouchListener,
         OnFocusChangeListener, TextWatcher {

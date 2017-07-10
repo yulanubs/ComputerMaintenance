@@ -7,8 +7,8 @@ import android.widget.ImageView;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.CircleImageTool;
-import com.loudmaintenance.util.ViewHolder;
+import com.computerdmaintenance.util.CircleImageTool;
+import com.computerdmaintenance.util.ViewHolder;
 import com.mr.cm.common.base.domain.MessageInfo;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;

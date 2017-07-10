@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
-import com.loudmaintenance.util.ViewHolder;
+import com.computerdmaintenance.util.ViewHolder;
 
 import java.util.ArrayList;
 import java.util.List;

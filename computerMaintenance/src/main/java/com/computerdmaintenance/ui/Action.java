@@ -3,7 +3,7 @@ package com.computerdmaintenance.ui;
 import android.content.Context;
 
 import com.computerdmaintenance.ui.wgt.event.MrEventAction;
-import com.loudmaintenance.util.MrLog;
+import com.computerdmaintenance.util.MrLog;
 import com.mr.cm.common.base.domain.IndexFunctionItem;
 import com.mr.cm.common.base.domain.IndexItemInfo;
 

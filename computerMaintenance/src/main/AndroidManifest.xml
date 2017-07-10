@@ -179,6 +179,9 @@
             android:name="com.computerdmaintenance.ui.activity.CustomActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleTask"></activity>
+        <!-- 在百度开发者中心查询应用的API Key -->
+
+        <meta-data android:name="api_key" android:value="7khcW6t9AlAyyfzua2lBScYtl4E1y0TL"/>
         <!-- 百度推送end -->
     </application>
 

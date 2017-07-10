@@ -5,12 +5,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Rect;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.FrameLayout;
 import android.widget.TextView;
@@ -25,10 +27,10 @@ import com.computerdmaintenance.ui.component.MrHeader;
 import com.computerdmaintenance.ui.component.MrHeader.OnBackClickListener;
 import com.computerdmaintenance.ui.wgt.event.MrEvent;
 import com.computerdmaintenance.ui.wgt.event.MrEventAction;
-import com.loudmaintenance.util.BindView;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.RegularExpressions;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.BindView;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.RegularExpressions;
+import com.computerdmaintenance.util.UtilTools;
 import com.mr.cm.common.base.domain.ResultViewModle;
 
 import java.lang.reflect.Field;
@@ -480,4 +482,5 @@ public abstract class BaseWgt extends FrameLayout implements
         tem = matcher.matches();
         return tem;
     }
+
 }

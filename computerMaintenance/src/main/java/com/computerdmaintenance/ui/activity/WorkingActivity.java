@@ -44,10 +44,10 @@ import com.computerdmaintenance.ui.wgt.event.MrEvent;
 import com.computerdmaintenance.ui.wgt.event.MrEventBarCode;
 import com.computerdmaintenance.ui.wgt.event.MrEventContactPick;
 import com.computerdmaintenance.ui.wgt.event.MrEventNetwork;
-import com.loudmaintenance.util.ActivityResultTransfer;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.OnActivityResultCallBack;
+import com.computerdmaintenance.util.ActivityResultTransfer;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.OnActivityResultCallBack;
 
 import java.io.Serializable;
 

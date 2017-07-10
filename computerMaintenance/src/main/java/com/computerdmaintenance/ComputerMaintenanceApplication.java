@@ -8,25 +8,27 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.graphics.Bitmap;
+import android.os.Environment;
 import android.widget.Toast;
 
 import com.computerdmaintenance.device.deviceManager;
 import com.computerdmaintenance.ui.activity.WorkingActivity;
 import com.computerdmaintenance.ui.view.MrLoadingDialog;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.DIdUtil;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.DIdUtil;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.StorageUtils;
+import com.computerdmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.ValueUtils;
 import com.mr.cm.common.base.domain.AppInfo;
 import com.mr.cm.common.base.domain.UserInfo;
-import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
-import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
+import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
+import com.nostra13.universalimageloader.cache.memory.impl.LRULimitedMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
-import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
-import com.nostra13.universalimageloader.utils.L;
-import com.nostra13.universalimageloader.utils.StorageUtils;
+import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 import com.yolanda.nohttp.Logger;
 import com.yolanda.nohttp.NoHttp;
 
@@ -188,8 +190,6 @@ public class ComputerMaintenanceApplication extends Application {
         LoadPackageInfo();
         // 加载配置信息
         LoadConfig();
-        // 加载设备信息
-        LoadDeviceInfo();
         // 创建APP信息
         CreatAPPInfo();
         //初始化百度推送
@@ -206,6 +206,7 @@ public class ComputerMaintenanceApplication extends Application {
      */
 
     private void initBaiDuPush() {
+        // 启动百度push
 
 
     }
@@ -217,40 +218,32 @@ public class ComputerMaintenanceApplication extends Application {
      */
 
     public void initImageLoader(Context context) {
-
         File cacheDir = StorageUtils.getOwnCacheDirectory(context,
-                "MR_CD/Cache");
-        ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(
-                context)
-                .threadPriority(Thread.NORM_PRIORITY - 2)
-                .denyCacheImageMultipleSizesInMemory()
-                .memoryCacheSize(4 * 1024 * 1024)
-                .diskCacheFileNameGenerator(new Md5FileNameGenerator())
-                .diskCacheSize(50 * 1024 * 1024)
-                // 50 Mb
-                .diskCache(new UnlimitedDiscCache(cacheDir))
-                .tasksProcessingOrder(QueueProcessingType.LIFO)
-                .writeDebugLogs() // Remove for release app
-                .build();
-        // Initialize ImageLoader with configuration.
-        ImageLoader.getInstance().init(config);
-        L.writeDebugLogs(false);
+                "ComputerMaintenance/Cache");
+        if (cacheDir == null) {
+            cacheDir = Environment.getDownloadCacheDirectory();
+        }
 
-        // This configuration tuning is custom. You can tune every option, you
-        // may tune some of them,
-        // or you can create default configuration by
-        // ImageLoaderConfiguration.createDefault(this);
-        // method.
 
-        // Initialize ImageLoader with configuration.
+
 
         option = new DisplayImageOptions.Builder()
                 .showImageOnLoading(R.drawable.plugin_camera_no_pictures)
                 .showImageOnFail(R.drawable.plugin_camera_no_pictures)
                 .bitmapConfig(Bitmap.Config.ARGB_4444).cacheInMemory(true)
-                .cacheOnDisk(true).considerExifParams(true)
+                .cacheOnDisk(true).considerExifParams(true).build();
 
-                .build();
+        ImageLoaderConfiguration.Builder builder = new ImageLoaderConfiguration.Builder(
+                getApplicationContext())
+                .threadPoolSize(3)
+                .memoryCache(new LRULimitedMemoryCache(3 * 1024 * 1024))
+                .diskCache(new UnlimitedDiskCache(cacheDir))
+                .diskCacheFileNameGenerator(new HashCodeFileNameGenerator())
+                .imageDownloader(new BaseImageDownloader(getApplicationContext()))
+                .defaultDisplayImageOptions(option);
+
+        ImageLoaderConfiguration config = builder.build();
+        ImageLoader.getInstance().init(config);
 
     }
 
@@ -258,9 +251,9 @@ public class ComputerMaintenanceApplication extends Application {
      * 方法名：LoadDeviceInfo<BR>
      * 此方法描述的是： 加载设备信息
      */
-    public void LoadDeviceInfo() {
+    public void LoadDeviceInfo(Activity activity) {
         dev = new deviceManager();
-        dev.init(getApplicationContext());
+        dev.init(activity);
         // add by xqq
         dev.deviceInfo.setSessionID(getSessionID());
         dev.deviceInfo.setAppVersionName(packageinfo.versionName);
@@ -308,26 +301,28 @@ public class ComputerMaintenanceApplication extends Application {
         config = new Config();
         config.marketId = this.getResources().getString(R.string.marketId);
         config.SERVER_Game = this.getResources()
-                .getString(R.string.SERVER_Game);
+                .getString(R.string.SERVER_Game).trim();
         config.SERVER_Game_Push = this.getResources().getString(
-                R.string.SERVER_Game_Push);
+                R.string.SERVER_Game_Push).trim();
+        config.IMAGE_SERVER=this.getResources().getString(
+                R.string.IMAGE_SERVER).trim();
         if (isBetaorPrd) {
             // 生产环境
             config.SERVER_ULE_BASE = this.getResources().getString(
-                    R.string.SERVER_MR_PRD_BASE);
+                    R.string.SERVER_MR_PRD_BASE).trim();
             config.SERVER_MR_VPS = this.getResources()
                     .getString(R.string.SERVER_MR_PRD_VPS).trim();
 
         } else {
             // Beta环境
             config.SERVER_ULE_BASE = this.getResources().getString(
-                    R.string.SERVER_MR_BETA_BASE);
+                    R.string.SERVER_MR_BETA_BASE).trim();
             config.SERVER_MR_VPS = this.getResources()
                     .getString(R.string.SERVER_MR_BETA_VPS).trim();
 
         }
 
-        config.UPDATE_KEY = this.getResources().getString(R.string.UPDATE_KEY);
+        config.UPDATE_KEY = this.getResources().getString(R.string.UPDATE_KEY).trim();
 
     }
 
@@ -415,13 +410,37 @@ public class ComputerMaintenanceApplication extends Application {
         }
     }
 
-    /**
-     * 方法名：openToast<BR>
-     * 此方法描述的是： Toast
-     */
+    Toast toast;
     public void openToast(Context context, String message) {
-        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
+        if (ValueUtils.isEmpty(context))
+            context=getApplicationContext();
+        if(null!=toast){
+            toast.setText(message);
+        }else{
+            toast=Toast.makeText(context, message, Toast.LENGTH_SHORT);
+        }
+        toast.show();
     }
+    public void openToast(String message){
+        if(null!=toast){
+            toast.setText(message);
+        }else{
+            toast=Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        }
+        toast.show();
+    }
+
+    public void openToast(Context context, int resId) {
+        if (ValueUtils.isEmpty(context))
+            context=getApplicationContext();
+        if(null!=toast){
+            toast.setText(this.getResources().getString(resId));
+        }else{
+            toast=Toast.makeText(context, this.getResources().getString(resId), Toast.LENGTH_SHORT);
+        }
+        toast.show();
+    }
+
 
     /**
      * 方法名：islogin<BR>

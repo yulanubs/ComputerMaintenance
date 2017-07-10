@@ -10,12 +10,12 @@ public class ResultViewModle implements Serializable {
      * 响应码
      */
     @JSONField(name = "returnCode")
-    public String returnCode;
+    public String returnCode="";
     /**
      * 响应状态信息
      */
     @JSONField(name = "returnMessage")
-    public String returnMessage;
+    public String returnMessage="";
 
 
     public ResultViewModle(String returnCode, String returnMessage) {

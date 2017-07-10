@@ -35,7 +35,7 @@ public class ViewFlow extends AdapterView<Adapter> {
     private LinkedList<View> mLoadedViews;
     private int mCurrentBufferIndex;
     private int mCurrentAdapterIndex;
-    private int mSideBuffer = 2;
+    private int mSideBuffer = 1;
     private Scroller mScroller;
     private VelocityTracker mVelocityTracker;
     private int mTouchState = TOUCH_STATE_REST;
@@ -64,6 +64,10 @@ public class ViewFlow extends AdapterView<Adapter> {
         }
     };
 
+    public int getmSideBuffer() {
+        return mSideBuffer;
+    }
+
     public ViewFlow(Context context) {
         super(context);
         mSideBuffer = 3;
@@ -81,7 +85,7 @@ public class ViewFlow extends AdapterView<Adapter> {
         super(context, attrs);
         TypedArray styledAttrs = context.obtainStyledAttributes(attrs,
                 R.styleable.ViewFlow);
-        mSideBuffer = styledAttrs.getInt(R.styleable.ViewFlow_sidebuffer, 3);
+        mSideBuffer = styledAttrs.getInt(R.styleable.ViewFlow_sidebuffer, 1);
         init();
     }
 
@@ -97,18 +101,22 @@ public class ViewFlow extends AdapterView<Adapter> {
     //通过延迟消息实现自动播放，使用时通过调用该方法来启动自动播放功能
     @SuppressLint("HandlerLeak")
     public void startAutoFlowTimer() {
-        handler = new Handler() {
-            @Override
-            public void handleMessage(Message msg) {
+        if (mSideBuffer>1){
+            handler = new Handler() {
+                @Override
+                public void handleMessage(Message msg) {
 
-                snapToScreen((mCurrentScreen + 1) % getChildCount());
-                Message message = handler.obtainMessage(0);
-                sendMessageDelayed(message, timeSpan);
-            }
-        };
+                    snapToScreen((mCurrentScreen + 1) % getChildCount());
+                    Message message = handler.obtainMessage(0);
+                    sendMessageDelayed(message, timeSpan);
+                }
+            };
 
-        Message message = handler.obtainMessage(0);
-        handler.sendMessageDelayed(message, timeSpan);
+            Message message = handler.obtainMessage(0);
+            handler.sendMessageDelayed(message, timeSpan);
+        }else {
+
+        }
     }
 
     //停止自动播放

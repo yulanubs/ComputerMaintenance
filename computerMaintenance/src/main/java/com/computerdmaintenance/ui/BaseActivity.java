@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View.OnClickListener;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
-import com.loudmaintenance.util.BindView;
+import com.computerdmaintenance.util.BindView;
 
 import java.lang.reflect.Field;
 

@@ -3,7 +3,7 @@ package com.computerdmaintenance.ui;
 import android.content.Context;
 
 import com.computerdmaintenance.ui.wgt.BaseWgt;
-import com.loudmaintenance.util.MrLog;
+import com.computerdmaintenance.util.MrLog;
 
 import java.lang.ref.SoftReference;
 import java.lang.reflect.Constructor;

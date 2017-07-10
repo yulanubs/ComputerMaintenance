@@ -1,13 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#e9e9e9"
     android:orientation="vertical">
 
-    <com.computerdmaintenance.ui.view.DiagnosisMonitorView
-        android:id="@+id/dmv_DiagnosticIndicator"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp" />
+        android:layout_height="250dp"
+        android:background="#ff12b7f5"
+        android:padding="24dp">
 
+        <com.computerdmaintenance.ui.view.DigitalGroupView
+            android:id="@+id/digi_heartbeat_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:digiGroupColor="@color/heartbeat"
+            android:layout_centerInParent="true"
+            app:digiGroupFigureCounts="3"
+            app:digiGroupTextSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/digi_heartbeat_result"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:text="诊断单"/>
+
+        <com.computerdmaintenance.ui.view.HeartbeatView
+            android:id="@+id/heartbeat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tv_toast"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="云端诊断中..."
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="50dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/search_item_enginemode"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/common_toobar_icon_search" />
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:descendantFocusability="blocksDescendants"
+                    android:fontFamily="微软雅黑"
+                    android:hint="请输入故障描述关键字"
+                    android:textColor="@color/divider_color_black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/iv_goQrcode"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/abs__ic_voice_search" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#d0d0d0" />
+
+                <Button
+                    android:id="@+id/btn_Diagnosis"
+                    android:layout_width="55dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@color/white"
+                    android:text="诊断"
+                    android:textColor="@color/_2d2d2d"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

@@ -11,20 +11,9 @@
             <option value="$PROJECT_DIR$/commrcmcommonbase" />
             <option value="$PROJECT_DIR$/computerMaintenance" />
             <option value="$PROJECT_DIR$/dC_NoHttp" />
-            <option value="$PROJECT_DIR$/kSYMediaPlayer" />
-            <option value="$PROJECT_DIR$/kSYMediaWidget" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/commrcmcommonbase" />
-            <option value="$PROJECT_DIR$/computerMaintenance" />
-            <option value="$PROJECT_DIR$/dC_NoHttp" />
-            <option value="$PROJECT_DIR$/kSYMediaPlayer" />
-            <option value="$PROJECT_DIR$/kSYMediaWidget" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

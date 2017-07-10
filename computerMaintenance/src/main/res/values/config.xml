@@ -10,12 +10,13 @@
     <!-- <string name="SERVER_Game_Push">g.tom.com</string> -->
 
     <!-- PRD -->
-    <string name="SERVER_MR_BETA_BASE">service.beta.ule.com</string>
-    <string name="SERVER_MR_BETA_VPS">httpp://192.168.0.6:8080</string>
+    <string name="SERVER_MR_BETA_BASE">http://106.14.141.202</string>
+    <string name="SERVER_MR_BETA_VPS">http://106.14.141.202</string>
 
 
-    <string name="SERVER_MR_PRD_BASE">service.ule.com</string>
-    <string name="SERVER_MR_PRD_VPS">http://syknet.duapp.com</string>
+    <string name="SERVER_MR_PRD_BASE">http://106.14.141.202</string>
+    <string name="SERVER_MR_PRD_VPS">http://106.14.141.202</string>
+    <string name="IMAGE_SERVER">http://omf60tstq.bkt.clouddn.com</string>
 
     <string name="UPDATE_KEY">computermaintenance_android_update</string>
 

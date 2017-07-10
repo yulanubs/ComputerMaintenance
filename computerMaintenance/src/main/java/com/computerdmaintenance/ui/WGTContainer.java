@@ -10,7 +10,7 @@ import com.computerdmaintenance.ui.wgt.IndexWgt;
 import com.computerdmaintenance.ui.wgt.LoginWgt;
 import com.computerdmaintenance.ui.wgt.NetworkErr;
 import com.computerdmaintenance.ui.wgt.event.MrEvent;
-import com.loudmaintenance.util.MrLog;
+import com.computerdmaintenance.util.MrLog;
 
 import java.util.Stack;
 

@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.computerdmaintenance.ComputerMaintenanceApplication;
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.ViewHolder;
+import com.computerdmaintenance.util.ViewHolder;
 import com.mr.cm.common.base.domain.Business;
 
 /**
@@ -27,7 +27,7 @@ public class ClassVideoListAdapter extends CommonAdapter<Business> {
     public void convert(final ViewHolder holder, Business ben) {
         // TODO Auto-generated method stub
         holder.setImageURL(R.id.iv_shop_logo,
-                app.config.SERVER_MR_VPS + ben.Merchant_Logo, app.option)
+                app.config.IMAGE_SERVER + ben.Merchant_Logo, app.option)
                 .setText(R.id.tv_shop_name, ben.Merchant_Name)
                 .setText(R.id.tv_shop_follow_num, ben.Merchant_Follow_Nnum)
                 .setText(R.id.tv_shop_distance, ben.Merchant_Distance)

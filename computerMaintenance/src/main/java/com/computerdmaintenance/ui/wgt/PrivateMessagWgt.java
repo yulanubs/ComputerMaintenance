@@ -10,7 +10,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import com.computerdmaintenance.R;
 import com.computerdmaintenance.adapter.MessageInfoGridViewAdapter;
 import com.computerdmaintenance.ui.component.MessageInfoGridView;
-import com.loudmaintenance.util.MrEventWebLogin;
+import com.computerdmaintenance.util.MrEventWebLogin;
 import com.mr.cm.common.base.domain.MessageInfo;
 
 import java.util.ArrayList;
@@ -61,21 +61,21 @@ public class PrivateMessagWgt extends BaseWgt implements View.OnClickListener,
     private void initdata() {
 
         List<MessageInfo> list = new ArrayList<MessageInfo>();
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
-        list.add(new MessageInfo("", "你好！", appcontext.config.SERVER_MR_VPS
+        list.add(new MessageInfo("", "你好！", appcontext.config.IMAGE_SERVER
                 + "/images/ic_launcher.png", "", "今天 15:30", "七里香"));
         mInfoGridViewAdapter.setmDatas(list);
 

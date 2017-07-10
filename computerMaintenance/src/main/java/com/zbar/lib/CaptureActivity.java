@@ -1,6 +1,9 @@
 package com.zbar.lib;
 
+import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Point;
 import android.graphics.drawable.Drawable;
@@ -10,6 +13,8 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Vibrator;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
@@ -20,12 +25,13 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.computerdmaintenance.R;
 import com.computerdmaintenance.ui.activity.SlideActivity;
 import com.computerdmaintenance.ui.component.MrHeader;
-import com.loudmaintenance.util.Consts;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.Consts;
+import com.computerdmaintenance.util.UtilTools;
 import com.zbar.lib.camera.CameraManager;
 import com.zbar.lib.decode.CaptureActivityHandler;
 import com.zbar.lib.decode.InactivityTimer;
@@ -45,6 +51,7 @@ public class CaptureActivity extends SlideActivity implements Callback {
 
     private static final float BEEP_VOLUME = 0.50f;
     private static final long VIBRATE_DURATION = 200L;
+    private static final int TAKE_PHOTO_REQUEST_CODE =0x123 ;
     private final OnCompletionListener beepListener = new OnCompletionListener() {
         public void onCompletion(MediaPlayer mediaPlayer) {
             mediaPlayer.seekTo(0);
@@ -141,7 +148,6 @@ public class CaptureActivity extends SlideActivity implements Callback {
      * 方法名：<BR>
      * 此方法描述的是：初始化标题
      *
-     * @param view
      */
     private void initHeader() {
         mHeader.setTitleText("二维码扫描");
@@ -198,21 +204,35 @@ public class CaptureActivity extends SlideActivity implements Callback {
     @Override
     protected void onResume() {
         super.onResume();
-        SurfaceView surfaceView = (SurfaceView) findViewById(R.id.capture_preview);
-        SurfaceHolder surfaceHolder = surfaceView.getHolder();
-        if (hasSurface) {
-            initCamera(surfaceHolder);
+        if (ContextCompat.checkSelfPermission(this,
+                Manifest.permission.CAMERA)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions( this,
+                    new String[]{Manifest.permission.CAMERA},
+                    TAKE_PHOTO_REQUEST_CODE);
+            hasSurface=true;
         } else {
-            surfaceHolder.addCallback(this);
-            surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+            SurfaceView surfaceView = (SurfaceView) findViewById(R.id.capture_preview);
+            SurfaceHolder surfaceHolder = surfaceView.getHolder();
+            if (hasSurface) {
+                initCamera(surfaceHolder);
+
+
+
+            } else {
+                surfaceHolder.addCallback(this);
+                surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+            }
+            playBeep = true;
+            AudioManager audioService = (AudioManager) getSystemService(AUDIO_SERVICE);
+            if (audioService.getRingerMode() != AudioManager.RINGER_MODE_NORMAL) {
+                playBeep = false;
+            }
+            initBeepSound();
+            vibrate = true;
         }
-        playBeep = true;
-        AudioManager audioService = (AudioManager) getSystemService(AUDIO_SERVICE);
-        if (audioService.getRingerMode() != AudioManager.RINGER_MODE_NORMAL) {
-            playBeep = false;
-        }
-        initBeepSound();
-        vibrate = true;
+
+
     }
 
     @Override
@@ -294,8 +314,20 @@ public class CaptureActivity extends SlideActivity implements Callback {
     @Override
     public void surfaceCreated(SurfaceHolder holder) {
         if (!hasSurface) {
-            hasSurface = true;
-            initCamera(holder);
+
+            if (ContextCompat.checkSelfPermission(this,
+                    Manifest.permission.CAMERA)
+                    != PackageManager.PERMISSION_GRANTED) {
+//				hasSurface=false;
+                ActivityCompat.requestPermissions((Activity) this,
+                        new String[]{Manifest.permission.CAMERA},
+                        TAKE_PHOTO_REQUEST_CODE);
+
+            } else {
+                hasSurface = true;
+                initCamera(holder);
+            }
+
         }
     }
 
@@ -350,5 +382,32 @@ public class CaptureActivity extends SlideActivity implements Callback {
     protected void notifyNetworkChange(boolean connected) {
         // TODO Auto-generated method stub
 
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        doNext(requestCode, grantResults);
+    }
+    private void doNext(int requestCode, int[] grantResults) {
+        if (requestCode == 1) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission Granted
+                hasSurface = true;
+                SurfaceView surfaceView = (SurfaceView) findViewById(R.id.capture_preview);
+                SurfaceHolder surfaceHolder = surfaceView.getHolder();
+                if (hasSurface) {
+                    initCamera(surfaceHolder);
+                } else {
+                    surfaceHolder.addCallback(this);
+                    surfaceHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
+                }
+            } else {
+                CameraManager.get().closeDriver();
+                // Permission Denied
+                //  displayFrameworkBugMessageAndExit();
+                Toast.makeText(this, "请在应用管理中打开“相机”访问权限！", Toast.LENGTH_LONG).show();
+                finish();
+            }
+        }
     }
 }

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="commrcmcommonbase.commrcmcommonbase">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/commrcmcommonbase/build/libs/commrcmcommonbase.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -15,8 +15,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.computerdmaintenance.R;
-import com.loudmaintenance.util.BindView;
-import com.loudmaintenance.util.CircleImageTool;
+import com.computerdmaintenance.util.BindView;
+import com.computerdmaintenance.util.CircleImageTool;
 import com.mr.cm.common.base.domain.UserInfo;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
@@ -91,7 +91,7 @@ public class PersonalCenterWgt extends BaseWgt implements OnClickListener {
             tv_username.setText(domainUser.userByname);
             tv_userRank.setText(domainUser.userRank);
             tv_userGold.setText(domainUser.userGold);
-            ImageLoader.getInstance().displayImage(appcontext.config.SERVER_MR_VPS + domainUser.userIconUrl, personal_login_button, appcontext.option, new SimpleImageLoadingListener() {
+            ImageLoader.getInstance().displayImage( domainUser.userIconUrl, personal_login_button, appcontext.option, new SimpleImageLoadingListener() {
 
                 @Override
                 public void onLoadingFailed(String imageUri, View view,

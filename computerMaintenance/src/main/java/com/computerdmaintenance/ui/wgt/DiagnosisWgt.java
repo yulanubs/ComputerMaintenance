@@ -6,33 +6,39 @@ import android.content.res.Configuration;
 import android.graphics.drawable.AnimationDrawable;
 import android.text.Editable;
 import android.text.Selection;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.animation.AlphaAnimation;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.computerdmaintenance.R;
 import com.computerdmaintenance.ui.view.DiagnosisMonitorView;
-import com.loudmaintenance.util.BindView;
+import com.computerdmaintenance.ui.view.DigitalGroupView;
+import com.computerdmaintenance.ui.view.HeartbeatView;
+import com.computerdmaintenance.util.BindView;
+import com.computerdmaintenance.util.ValueUtils;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
  * 诊断页面
  */
 public class DiagnosisWgt extends BaseWgt implements OnClickListener {
-    public AnimationDrawable animationDrawable;
-    //    /**
-//     * 中心盾牌
-//     */
-//    @BindView(id = R.id.iv_diagnosis)
-//    private ImageView iv_diagnosis;
-    @BindView(id = R.id.dmv_DiagnosticIndicator)
-    private DiagnosisMonitorView dmv_DiagnosticIndicator;
-
-
+    private HeartbeatView mHeartbeatView;
+    private DigitalGroupView mDigiResult;
+    private TextView mTextUnit,mTextToast;
+    private List<HeartbeatEntity> mData = new ArrayList<>();
+    private Button btn_Diagnosis;
+    private  EditText et_search;
+    private   String keyWord="";
     public DiagnosisWgt(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         // TODO Auto-generated constructor stub
@@ -57,10 +63,66 @@ public class DiagnosisWgt extends BaseWgt implements OnClickListener {
 //        iv_diagnosis.setBackgroundResource(R.anim.diagnosis_animation);
 //        animationDrawable = (AnimationDrawable) iv_diagnosis.getBackground();
 //        animationDrawable.start();
+        mHeartbeatView = (HeartbeatView) findViewById(R.id.heartbeat);
+        mDigiResult = (DigitalGroupView) findViewById(R.id.digi_heartbeat_result);
+        mTextUnit = (TextView) findViewById(R.id.text_unit);
+        mTextToast = (TextView) findViewById(R.id.tv_toast);
+        btn_Diagnosis = (Button) findViewById(R.id.btn_Diagnosis);
+        et_search = (EditText) findViewById(R.id.et_search);
+
+        btn_Diagnosis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 keyWord = et_search.getText().toString().trim();
+                if (ValueUtils.isStrEmpty(keyWord)){
+                    appcontext.openToast("亲,关键字不能为空!");
+                    return;
+                }
+                hideSoftKeyword();
+                mHeartbeatView.startAnim();
+                mTextToast.setText("云端诊断中...");
+                mTextToast.setVisibility(VISIBLE);
+                hideResult();
+            }
+        });
+        mHeartbeatView.setHeartBeatAnimListener(new HeartbeatView.HeartBeatAnimImpl() {
+            @Override
+            public void onAnimFinished() {
+                mTextToast.setText("云端诊断成功");
+                int randomNum = (int) (50 + Math.random() * 50);
+                HeartbeatEntity e = new HeartbeatEntity();
+                e.date = "2016-06-27";
+                e.datum = String.valueOf(randomNum);
+                mData.add(0, e);
+//                mAdapter.notifyItemInserted(0);
+//                mHeartbeatRecycler.scrollToPosition(0);
+
+                showResult();
+                mDigiResult.setDigits(randomNum);
+            }
+        });
+
         setData();
 
     }
+    private void showResult() {
+        mTextUnit.setVisibility(View.VISIBLE);
+        mDigiResult.setVisibility(View.VISIBLE);
+    }
+    class HeartbeatEntity {
+        String date;
+        String datum;
+    }
+    private void hideResult() {
+        AlphaAnimation mHiddenAction = new AlphaAnimation(1f, 0f);
+        mHiddenAction.setDuration(400);
 
+        mTextUnit.setAnimation(mHiddenAction);
+        mDigiResult.setAnimation(mHiddenAction);
+
+        mTextUnit.setVisibility(View.GONE);
+        mDigiResult.setVisibility(View.GONE);
+    }
     /**
      * 设置数据
      */

@@ -1,7 +1,10 @@
 package com.computerdmaintenance.device;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
@@ -9,6 +12,8 @@ import android.net.wifi.WifiManager;
 import android.os.Environment;
 import android.os.StatFs;
 import android.provider.Settings.Secure;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.view.Display;
@@ -16,13 +21,14 @@ import android.view.WindowManager;
 
 import com.computerdmaintenance.R;
 import com.computerdmaintenance.config.Config;
-import com.loudmaintenance.util.MrLog;
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.MrLog;
+import com.computerdmaintenance.util.UtilTools;
 
 import java.io.File;
 
 public class deviceManager {
     public androiddevice deviceInfo = null;
+    private int REQUEST_READ_PHONE_STATE=0x12312;
 
     @SuppressLint("DefaultLocale")
     @SuppressWarnings("deprecation")
@@ -30,12 +36,20 @@ public class deviceManager {
         TelephonyManager svr = (TelephonyManager) conext
                 .getSystemService(Context.TELEPHONY_SERVICE);
         deviceInfo = new androiddevice();
-        if (svr != null) {
-            deviceInfo.setLine1num(svr.getLine1Number());
-            deviceInfo.setImei(svr.getDeviceId());
-            deviceInfo.setImsi(svr.getSubscriberId());
-            deviceInfo.setNet(deviceInfo.net(svr.getNetworkType()));
+        int permissionCheck = ContextCompat.checkSelfPermission(conext, Manifest.permission.READ_PHONE_STATE);
+
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions((Activity) conext, new String[]{Manifest.permission.READ_PHONE_STATE}, REQUEST_READ_PHONE_STATE);
+        } else {
+            if (svr != null) {
+
+                deviceInfo.setLine1num(svr.getLine1Number());
+                deviceInfo.setImei(svr.getDeviceId());
+                deviceInfo.setImsi(svr.getSubscriberId());
+                deviceInfo.setNet(deviceInfo.net(svr.getNetworkType()));
+            }
         }
+
         deviceInfo.setAndroid_market(conext.getString(R.string.marketId));
         WindowManager wm = (WindowManager) conext
                 .getSystemService(Context.WINDOW_SERVICE);

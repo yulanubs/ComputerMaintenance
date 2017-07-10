@@ -3,7 +3,7 @@ package com.computerdmaintenance.device;
 import android.net.ConnectivityManager;
 import android.telephony.TelephonyManager;
 
-import com.loudmaintenance.util.UtilTools;
+import com.computerdmaintenance.util.UtilTools;
 import com.mr.cm.common.base.domain.DeviceInfo;
 
 import java.io.File;

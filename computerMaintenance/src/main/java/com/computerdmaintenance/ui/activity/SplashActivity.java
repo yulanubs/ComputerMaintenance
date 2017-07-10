@@ -11,9 +11,11 @@ import android.os.Handler;
 import com.baidu.android.pushservice.PushConstants;
 import com.baidu.android.pushservice.PushManager;
 import com.computerdmaintenance.R;
+import com.computerdmaintenance.ui.Action;
+import com.computerdmaintenance.ui.Base;
 import com.computerdmaintenance.ui.WGTContainer;
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends Base {
     protected static final int NET_FAIL = 2;
     protected static final int VERSION_FAIL = 3;
     protected static final int VERSION_SUCCESS = 4;
@@ -79,6 +81,16 @@ public class SplashActivity extends Activity {
     protected void onPause() {
         // JPushInterface.onPause(this);
         super.onPause();
+    }
+
+    @Override
+    protected void jumpInner(Action act) {
+
+    }
+
+    @Override
+    protected void notifyNetworkChange(boolean connected) {
+
     }
 
     private void show() {
