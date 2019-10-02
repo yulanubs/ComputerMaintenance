@@ -57,7 +57,7 @@ public class ViewFlowAdapter extends BaseAdapter {
         if (null != list && list.size() > 0) {
             String ImgUrl = list.get(position % list.size()).images;
             if (null != ImgUrl && !ImgUrl.equals("")) {
-                ImageLoader.getInstance().displayImage( ImgUrl, mimg, app.option);
+                ImageLoader.getInstance().displayImage( app.config.IMAGE_SERVER +ImgUrl, mimg, app.option);
 
             }
 

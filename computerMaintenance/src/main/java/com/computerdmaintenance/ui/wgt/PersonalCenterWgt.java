@@ -91,7 +91,7 @@ public class PersonalCenterWgt extends BaseWgt implements OnClickListener {
             tv_username.setText(domainUser.userByname);
             tv_userRank.setText(domainUser.userRank);
             tv_userGold.setText(domainUser.userGold);
-            ImageLoader.getInstance().displayImage( domainUser.userIconUrl, personal_login_button, appcontext.option, new SimpleImageLoadingListener() {
+            ImageLoader.getInstance().displayImage(appcontext.config.IMAGE_SERVER + domainUser.userIconUrl, personal_login_button, appcontext.option, new SimpleImageLoadingListener() {
 
                 @Override
                 public void onLoadingFailed(String imageUri, View view,

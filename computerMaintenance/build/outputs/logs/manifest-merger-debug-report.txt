@@ -1,493 +1,493 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:2:1-319:12
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:2:1-319:12
 	package
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
-		INJECTED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
+		INJECTED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml
 supports-screens
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:11:5-16:39
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:11:5-16:39
 	android:largeScreens
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:13:9-36
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:13:9-36
 	android:smallScreens
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:16:9-36
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:16:9-36
 	android:normalScreens
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:14:9-37
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:14:9-37
 	android:resizeable
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:15:9-34
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:15:9-34
 	android:anyDensity
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:12:9-34
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:12:9-34
 application
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:18:5-186:19
-MERGED from [com.android.support:appcompat-v7:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.1] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:18:5-186:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:23:9-41
 	android:hardwareAccelerated
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:21:9-43
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:20:9-35
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:20:9-35
 	android:icon
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:22:9-45
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:22:9-45
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:24:9-40
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:24:9-40
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:19:9-55
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:19:9-55
 activity#com.computerdmaintenance.ui.activity.SplashActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:25:9-34:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:25:9-34:20
 	android:label
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:27:13-45
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:27:13-45
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:28:13-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:28:13-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:26:13-55
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:26:13-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:30:17-69
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:30:25-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:32:17-77
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:32:27-74
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:32:27-74
 activity#com.computerdmaintenance.ui.activity.WorkingActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:35:9-43:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:35:9-43:20
 	android:screenOrientation
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:39:13-49
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:39:13-49
 	android:launchMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:38:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:38:13-44
 	android:windowSoftInputMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:41:13-70
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:41:13-70
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:37:13-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:37:13-63
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:40:13-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:40:13-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:36:13-56
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:36:13-56
 action#android.intent.action.VIEW
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:42:13-65
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:42:13-65
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:42:21-62
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:42:21-62
 activity#com.tencent.tauth.AuthActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:45:9-73:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:45:9-73:20
 	android:screenOrientation
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:49:13-49
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:49:13-49
 	android:launchMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:47:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:47:13-44
 	android:noHistory
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:48:13-37
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:48:13-37
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:46:13-58
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:46:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:50:13-57:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:50:13-57:29
 category#android.intent.category.DEFAULT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:53:17-76
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:53:17-76
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:53:27-73
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:53:27-73
 category#android.intent.category.BROWSABLE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:54:17-78
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:54:17-78
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:54:27-75
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:54:27-75
 data
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:56:17-53
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:56:17-53
 	android:scheme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:56:23-50
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:56:23-50
 activity#com.computerdmaintenance.ui.ClassRoomActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:74:9-89:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:74:9-89:20
 	android:screenOrientation
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:77:13-49
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:77:13-49
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:76:13-74
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:76:13-74
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:78:13-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:78:13-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:75:13-73
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:75:13-73
 intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:79:13-88:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:79:13-88:29
 activity#com.tencent.connect.common.AssistActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:90:9-93:75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:90:9-93:75
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:92:13-74
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:92:13-74
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:93:13-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:93:13-72
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:91:13-69
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:91:13-69
 activity#com.zbar.lib.CaptureActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:96:9-98:78
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:96:9-98:78
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:98:13-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:98:13-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:97:13-56
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:97:13-56
 receiver#com.computerdmaintenance.receiver.CMPushReceiver
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:105:9-115:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:105:9-115:20
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:105:19-82
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:105:19-82
 intent-filter#com.baidu.android.pushservice.action.MESSAGE+com.baidu.android.pushservice.action.RECEIVE+com.baidu.android.pushservice.action.notification.CLICK
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:106:13-114:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:106:13-114:29
 action#com.baidu.android.pushservice.action.MESSAGE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:109:17-87
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:109:17-87
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:109:25-84
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:109:25-84
 action#com.baidu.android.pushservice.action.RECEIVE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:111:17-87
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:111:17-87
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:111:25-84
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:111:25-84
 action#com.baidu.android.pushservice.action.notification.CLICK
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:113:17-98
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:113:17-98
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:113:25-95
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:113:25-95
 receiver#com.baidu.android.pushservice.PushServiceReceiver
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:117:9-131:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:117:9-131:20
 	android:process
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:119:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:119:13-44
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:118:13-77
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:118:13-77
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.baidu.android.pushservice.action.media.CLICK+com.baidu.android.pushservice.action.notification.SHOW
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:120:13-130:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:120:13-130:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:121:17-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:121:17-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:121:25-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:121:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:122:17-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:122:17-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:122:25-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:122:25-76
 action#com.baidu.android.pushservice.action.notification.SHOW
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:123:17-97
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:123:17-97
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:123:25-94
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:123:25-94
 action#com.baidu.android.pushservice.action.media.CLICK
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:124:17-91
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:124:17-91
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:124:25-88
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:124:25-88
 action#android.intent.action.MEDIA_MOUNTED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:126:17-78
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:126:17-78
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:126:25-75
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:126:25-75
 action#android.intent.action.USER_PRESENT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:127:17-77
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:127:17-77
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:127:25-74
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:127:25-74
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:128:17-87
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:128:17-87
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:128:25-84
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:128:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:129:17-90
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:129:17-90
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:129:25-87
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:129:25-87
 receiver#com.baidu.android.pushservice.RegistrationReceiver
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:133:9-145:20
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:133:9-145:20
 	android:process
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:135:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:135:13-44
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:134:13-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:134:13-78
 intent-filter#com.baidu.android.pushservice.action.BIND_SYNC+com.baidu.android.pushservice.action.METHOD
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:136:13-139:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:136:13-139:29
 action#com.baidu.android.pushservice.action.METHOD
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:137:17-86
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:137:17-86
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:137:25-83
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:137:25-83
 action#com.baidu.android.pushservice.action.BIND_SYNC
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:138:17-89
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:138:17-89
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:138:25-86
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:138:25-86
 intent-filter#android.intent.action.PACKAGE_REMOVED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:140:13-144:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:140:13-144:29
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:141:17-80
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:141:17-80
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:141:25-77
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:141:25-77
 service#com.baidu.android.pushservice.PushService
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:147:9-154:19
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:147:9-154:19
 	android:process
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:150:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:150:13-44
 	android:exported
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:149:13-36
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:149:13-36
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:148:13-69
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:148:13-69
 intent-filter#com.baidu.android.pushservice.action.PUSH_SERVICE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:151:13-153:29
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:151:13-153:29
 action#com.baidu.android.pushservice.action.PUSH_SERVICE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:152:17-92
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:152:17-92
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:152:25-89
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:152:25-89
 service#com.baidu.android.pushservice.CommandService
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:156:9-158:39
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:156:9-158:39
 	android:exported
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:158:13-36
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:158:13-36
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:157:13-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:157:13-72
 activity#com.baidu.android.pushservice.PushKeepAlive
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:163:9-166:75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:163:9-166:75
 	android:launchMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:165:13-48
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:165:13-48
 	android:theme
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:166:13-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:166:13-72
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:164:13-71
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:164:13-71
 activity#com.baidu.android.pushservice.richmedia.MediaViewActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:168:9-171:58
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:168:9-171:58
 	android:label
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:171:13-46
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:171:13-46
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:170:13-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:170:13-63
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:169:13-85
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:169:13-85
 activity#com.baidu.android.pushservice.richmedia.MediaListActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:172:9-176:56
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:172:9-176:56
 	android:label
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:175:13-46
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:175:13-46
 	android:launchMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:176:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:176:13-44
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:174:13-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:174:13-63
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:173:13-85
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:173:13-85
 activity#com.computerdmaintenance.ui.activity.CustomActivity
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:178:9-181:56
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:178:9-181:56
 	android:launchMode
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:181:13-44
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:181:13-44
 	android:configChanges
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:180:13-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:180:13-63
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:179:13-79
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:179:13-79
 meta-data#api_key
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:184:9-93
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:184:9-93
 	android:value
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:184:43-91
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:184:43-91
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:184:20-42
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:184:20-42
 uses-permission#android.permission.INTERNET
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:188:5-67
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:8:5-67
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:188:5-67
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:188:22-64
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:188:22-64
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:189:5-68
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:189:5-68
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:189:22-65
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:189:22-65
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:190:5-81
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:6:5-81
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:190:5-81
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:190:22-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:190:22-78
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:191:5-73
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:191:5-73
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:191:22-70
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:191:22-70
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:193:5-79
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:9:5-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:193:5-79
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:193:22-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:193:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:196:5-76
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:13:5-76
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:196:5-76
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:13:5-76
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:196:22-73
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:196:22-73
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:197:5-78
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:197:5-78
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:197:22-75
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:197:22-75
 uses-permission#android.permission.RESTART_PACKAGES
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:200:5-75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:200:5-75
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:200:22-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:200:22-72
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:202:5-79
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:10:5-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:202:5-79
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:202:22-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:202:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:203:5-75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:203:5-75
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:203:22-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:203:22-72
 uses-permission#android.webkit.permission.PLUGIN
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:204:5-72
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:204:5-72
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:204:22-69
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:204:22-69
 uses-permission#android.permission.CAMERA
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:205:5-65
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:205:5-65
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:205:22-62
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:205:22-62
 uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:206:5-72
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:206:5-72
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:206:22-69
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:206:22-69
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:207:5-73
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:207:5-73
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:207:22-70
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:207:22-70
 uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:208:5-93
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:208:5-93
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:208:22-90
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:208:22-90
 uses-permission#android.permission.VIBRATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:209:5-66
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:209:5-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:209:22-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:209:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:210:5-69
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:210:5-69
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:210:22-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:210:22-66
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:213:5-76
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:11:5-76
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:213:5-76
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:213:22-73
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:213:22-73
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:216:5-81
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:216:5-81
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:216:22-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:216:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:217:5-81
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:217:5-81
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:217:22-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:217:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:218:5-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:218:5-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:218:22-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:218:22-76
 uses-permission#android.permission.READ_LOGS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:219:5-68
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:219:5-68
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:219:22-65
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:219:22-65
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:220:5-69
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:220:5-69
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:220:22-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:220:22-66
 uses-permission#android.permission.READ_SMS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:221:5-83
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:221:5-83
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:221:22-64
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:221:22-64
 uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:222:5-88
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:222:5-88
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:222:22-85
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:222:22-85
 uses-permission#com.android.launcher.permission.READ_SETTINGS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:223:5-85
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:223:5-85
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:223:22-82
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:223:22-82
 uses-permission#android.permission.SEND_SMS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:226:5-67
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:226:5-67
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:226:22-64
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:226:22-64
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:228:5-100
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:7:5-84
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:228:5-100
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:7:5-84
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:228:22-81
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:228:22-81
 uses-permission#android.permission.BAIDU_LOCATION_SERVICE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:229:5-81
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:229:5-81
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:229:22-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:229:22-78
 uses-permission#android.permission.ACCES_MOCK_LOCATION
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:230:5-78
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:230:5-78
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:230:22-75
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:230:22-75
 uses-permission#android.permission.ACCESS_GPS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:231:5-69
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:231:5-69
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:231:22-66
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:231:22-66
 uses-permission#android.permission.GET_TASKS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:232:5-68
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:232:5-68
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:232:22-65
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:232:22-65
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:233:5-75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:233:5-75
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:233:22-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:233:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:234:5-81
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:234:5-81
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:234:22-78
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:234:22-78
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:235:5-80
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:235:5-80
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:235:22-77
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:235:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:236:5-71
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:236:5-71
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:236:22-68
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:236:22-68
 uses-permission#com.tom.ule.lifepay.permission.JPUSH_MESSAGE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:239:5-84
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:239:5-84
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:239:22-81
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:239:22-81
 uses-permission#android.permission.RECEIVE_USER_PRESENT
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:240:5-79
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:240:5-79
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:240:22-76
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:240:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:245:5-80
-MERGED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:5:5-80
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:245:5-80
+MERGED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:245:22-77
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:245:22-77
 uses-permission#android.hardware.camera
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:261:5-63
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:261:5-63
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:261:22-60
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:261:22-60
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:263:5-70
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:263:5-70
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:263:19-67
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:263:19-67
 uses-feature#android.hardware.camera.flash
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:264:5-66
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:264:5-66
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:264:19-63
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:264:19-63
 uses-feature#android.hardware.camera
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:277:5-60
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:277:5-60
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:277:19-57
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:277:19-57
 uses-feature#android.hardware.autofocus
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:278:5-63
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:278:5-63
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:278:19-60
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:278:19-60
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:310:5-75
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:310:5-75
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:310:22-72
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:310:22-72
 uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:313:5-82
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:313:5-82
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:313:22-79
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:313:22-79
 uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:314:5-88
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:314:5-88
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:314:22-85
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:314:22-85
 uses-permission#android.permission.EXPAND_STATUS_BAR
-ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:315:5-76
+ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:315:5-76
 	android:name
-		ADDED from D:\as_code\ComputerMaintenance\computerMaintenance\src\main\AndroidManifest.xml:315:22-73
+		ADDED from D:\code\ComputerMaintenance.git\trunk\computerMaintenance\src\main\AndroidManifest.xml:315:22-73
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:12:5-86
+ADDED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:12:5-86
 	android:name
-		ADDED from [ComputerMaintenance:dC_NoHttp:unspecified] D:\as_code\ComputerMaintenance\computerMaintenance\build\intermediates\exploded-aar\ComputerMaintenance\dC_NoHttp\unspecified\AndroidManifest.xml:12:22-83
+		ADDED from [trunk:dC_NoHttp:unspecified] D:\code\ComputerMaintenance.git\trunk\computerMaintenance\build\intermediates\exploded-aar\trunk\dC_NoHttp\unspecified\AndroidManifest.xml:12:22-83

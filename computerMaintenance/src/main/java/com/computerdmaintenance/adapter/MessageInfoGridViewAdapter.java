@@ -29,7 +29,7 @@ public class MessageInfoGridViewAdapter extends CommonAdapter<MessageInfo> {
                 .setText(R.id.tv_chat_time, ben.getChat_time())
         ;
         final ImageView mImageView = holder.getView(R.id.iv_userphoto);
-        ImageLoader.getInstance().displayImage(app.config.SERVER_MR_VPS + ben.getImgurl(), mImageView, app.option, new SimpleImageLoadingListener() {
+        ImageLoader.getInstance().displayImage(app.config.IMAGE_SERVER + ben.getImgurl(), mImageView, app.option, new SimpleImageLoadingListener() {
 
             @Override
             public void onLoadingFailed(String imageUri, View view,

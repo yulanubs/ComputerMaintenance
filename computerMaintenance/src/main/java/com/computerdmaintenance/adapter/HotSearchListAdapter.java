@@ -20,7 +20,7 @@ public class HotSearchListAdapter extends CommonAdapter<Funcations> {
     public void convert(ViewHolder hodler, Funcations ben) {
         hodler.setText(R.id.item_title, ben.name);
         hodler.setImageURL(
-                R.id.index_app_icon, ben.images, app.option);
+                R.id.index_app_icon,app.config.IMAGE_SERVER + ben.images, app.option);
 
     }
 }
